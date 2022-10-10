@@ -1,0 +1,1 @@
+select sname,Amt from salesPeople   RIGHT JOIN Orders on salesPeople.snum = Orders.snum    where  Amt > 2000;

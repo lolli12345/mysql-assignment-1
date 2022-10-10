@@ -1,0 +1,1 @@
+ select sname, city,count(city) from salesPeople where city = 'Newyork' group by city;

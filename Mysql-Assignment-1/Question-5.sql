@@ -1,0 +1,1 @@
+select distinct sname,odate,count(orders.snum) from SalesPeople Right join Orders on salesPeople.snum = Orders.snum group by Orders.snum order by Orders.snum;

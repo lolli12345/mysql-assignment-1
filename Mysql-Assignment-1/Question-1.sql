@@ -1,0 +1,1 @@
+select * ,count(sname) from salesPeople where sname LIKE 'A%';
